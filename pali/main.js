@@ -2,8 +2,11 @@
 // (e quindi output di conseguenza)
 
 
-//ESERCIZIO CON spit/reverse/join
-// //chiedere all'utente parola
+//ESERCIZIO CON split('')/reverse()/join('')
+// .split('') <--- craa 'array' (divide una stringa in una matrice di sottostringhe)
+// .reverse() <---inverte array
+// .join('')<--- unisce elementi array in stringa
+//chiedere all'utente parola
 // var parola=prompt('inserisci parola', 'parola');
 // //controllare se la parola inserita è palindroma
 // if (parola.split('').reverse().join('')==parola) {

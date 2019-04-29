@@ -12,7 +12,7 @@ var scelta=prompt('pari o dispari?', 'pari/dispari');
 //scleta numero
 var numero=parseInt(prompt('scegli un numero da 1 a 5', '1/5'));
 //computer
-var cpu=Math.floor(Math.random()*5)+1;
+var cpu=Math.floor(Math.random()*5)+1; //+1 perchè parte a generare da 0
 alert(cpu);
 //somma per capire vincitore
 var somma=numero+cpu;

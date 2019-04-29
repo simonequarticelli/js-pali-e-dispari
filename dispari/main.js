@@ -17,8 +17,8 @@ alert(cpu);
 //somma per capire vincitore
 var somma=numero+cpu;
 //logica
-if (somma%2==0 && scelta=='pari') {  //%2==0 <--- PARI    %2==1<--- DISPARI 
-  //(somma%2==0 && scelta=='pari')||(somma%2==1 && scelta=='dispari') <---con utilizzo OR
+if (somma%2==0 && scelta=='pari') {  //%2==0 <--- PARI    %2==1<--- DISPARI
+  //(somma%2==0 && scelta=='pari')||(somma%2==1 && scelta=='dispari') <---con utilizzo OR (||)
   alert('hai vinto');
 } else if (somma%2==1 && scelta=='dispari'){
   alert('hai vinto');

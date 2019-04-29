@@ -19,9 +19,11 @@
 var parola=prompt('inserisci parola', 'parola');
 //creo var vuota
 var str='';
-//controllo la parola
-for (var i = parola.length-1; i >= 0; i--) {
-  str+=parola.charAt(i);
+//controllo la parola al contrario
+// for (var i = 0; i < parola.length; i++) { //CICLO NORMALE
+for (var i = parola.length-1; i >= 0; i--) { //CICLO CONTRARIO
+  console.log(i);
+  str+=parola.charAt(i); //+= <---FORMA ABBREVIATA DI str=str+parola.charAt(i);
   console.log(parola[i]);
 }
 //logica
